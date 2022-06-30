@@ -1,0 +1,26 @@
+.main-heading {
+  font-weight: 700;
+}
+
+.main-container {
+  padding: 40px;
+  background-image: url("../../assets/icon.png");
+  background-repeat: no-repeat;
+  /* background-position-x: right;
+  background-position-y: bottom; */
+  background-position: right 75%;
+}
+
+.main-list {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.main-list > li {
+  line-height: 30px;
+}
+
+.main-list > li::marker {
+  font-size: 1.4rem;
+  color: #61dafb;
+}

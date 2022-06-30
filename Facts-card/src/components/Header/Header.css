@@ -1,0 +1,25 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #21222a;
+  width: 100%;
+}
+
+.nav-logo-name {
+  color: #61dafb;
+  padding-left: 10px;
+}
+
+.nav-logo-content {
+  display: flex;
+  margin: 10px;
+}
+.nav-text {
+  margin-right: 20px;
+}
+
+.nav-logo {
+  width: 60px;
+}
