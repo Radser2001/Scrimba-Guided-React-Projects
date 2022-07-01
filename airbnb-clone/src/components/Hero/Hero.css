@@ -1,0 +1,29 @@
+section {
+  padding: 20px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-img {
+  max-width: 500px;
+  align-self: center;
+}
+
+.hero-description {
+  text-align: left;
+}
+
+.hero-description h1 {
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.hero-description p {
+  color: #222222;
+  font-weight: 300;
+  font-style: normal;
+  margin-top: 0;
+}

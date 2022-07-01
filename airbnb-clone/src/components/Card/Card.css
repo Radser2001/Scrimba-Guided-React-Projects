@@ -1,0 +1,31 @@
+.card {
+  width: 175px;
+  font-size: 16px;
+}
+
+.gray {
+  color: #918e9b;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.card-image {
+  max-width: 100%;
+}
+
+.card-stats {
+  display: flex;
+  align-items: center;
+}
+
+.card-start {
+  height: 14px;
+}
+
+@media screen and (max-width: 640px) {
+  .card {
+    margin-bottom: 50px;
+  }
+}
