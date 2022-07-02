@@ -10,18 +10,16 @@ function App() {
       // *props - make a component more usable.
 
       <Card
+        // * unique key
         key={info.id}
-        img={info.coverImg}
-        star={info.stats.img}
-        rating={info.stats.rating}
-        reviewCount={info.stats.reviewCount}
-        country={info.location}
-        title={info.title}
-        price={info.price}
+        // * directly pass the object
+        info={info}
+        // {...info}
+        //4:35:38
       />
     );
   });
-  //4:10:34
+  //4:15:34
   return (
     <>
       <Navbar />
