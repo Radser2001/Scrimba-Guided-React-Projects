@@ -1,0 +1,26 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  padding: 20px;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+}
+
+.nav-logo-name {
+  display: flex;
+  align-items: center;
+}
+
+.nav-name {
+  padding-left: 10px;
+}
+
+.nav-logo {
+  width: 60px;
+  height: 40px;
+}
+
+.nav-project-number h4 {
+  font-weight: 500;
+}
