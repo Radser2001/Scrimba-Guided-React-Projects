@@ -1,0 +1,15 @@
+footer {
+  bottom: 0;
+  height: 50px;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+}
+
+@media screen and (max-width: 440px) {
+  footer h3 {
+    font-size: 16px;
+  }
+}

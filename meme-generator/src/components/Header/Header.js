@@ -7,7 +7,7 @@ const Header = () => {
     <nav className="nav">
       <div className="nav-logo-name">
         <img src={logo} alt="" className="nav-logo" />
-        <h2 className="nav-name">Meme Generator</h2>
+        <h1 className="nav-name">Meme Generator</h1>
       </div>
       <div className="nav-project-number">
         <h4>React Course - Project 3</h4>
